@@ -1,0 +1,63 @@
+body{
+    background-color: #DB6571;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con-val{
+    padding: 100px;
+}
+
+.col-val{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-val img{
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.yes{
+    width: 150px;
+}
+
+.col-val h2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.no{
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+
+
+.buttonNo{
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media(max-width:600px){
+    .col-val img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .buttonNo{
+        width: 300px;
+        position: relative;
+    }
+}
